@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/function.js"></script>
+    <title>Questionnaire</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <article class="header__article" id="headerArticle">
+            <section class="header__section" id="headerSection">
+                <nav class="header__nav" id="headerNav">
+                    <a class="linkindex" id="linkIndex" href="index.html"><img src="img/icons/house-door-fill.svg" alt=""></a>
+                    <h1 class="titleIndex">POTATO COMPANY</h1>
+                    <a class="linkquestionnaire" id="linkQuestionnaire" href="questionnaire.html"><img src="img/icons/clipboard-fill.svg" alt=""></a>
+                </nav>
+            </section>
+        </article>
+    </header>
+    
+    <main class="main1">
+        <article class="questionnaire" id="questionnaire">
+            <section class="questionnaire__title">
+                <h2>
+                    Questionnaire
+                </h2>
+            </section>
+
+            <section class="questionnaire__sections">
+                <section class="questionnaire__ask" id="questionnaireAsk">
+                    <p>
+                        Name:
+                    </p>
+    
+                    <input class="input__name" id="inputName" type="text">
+
+                    <span id="span1" class="error"></span>
+
+                </section>
+    
+                <section class="questionnaire__ask" id="questionnaireAsk">
+                    <p>
+                        Mail:
+                    </p>
+    
+                    <input id="inputMail" type="text">
+
+                    <span id="span2" class="error"></span>
+                </section>
+    
+                <section class="questionnaire__ask" id="questionnaireAsk">
+                    <p>
+                        Phone number:
+                    </p>
+    
+                    <input id="inputPhone" type="text">
+
+                    <span id="span3" class="error"></span>
+                </section>
+    
+                <section class="questionnaire__ask" id="questionnaireAsk">
+                    <p>
+                        Street:
+                    </p>
+    
+                    <input id="inputStreet" type="text">
+
+                    <span id="span4" class="error"></span>
+                </section>
+            </section>
+            
+            <section class="questionnaire__button" id="questionnaireButton">
+                <button class="button" id="button">
+                    Send
+                </button>
+            </section>
+        </article>
+
+        <article class="questionnaireimage">
+            <section>
+                <img src="img/image/french-fries-illustration-free-png.png" alt="">
+            </section>
+        </article>
+
+        <article class="filled" id="filled">
+            <section>
+                <h3>
+                    COMPLETED
+                </h3>
+            </section>
+        </article>
+    </main>
+</body>
+</html>

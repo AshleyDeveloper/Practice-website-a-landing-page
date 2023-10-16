@@ -1,0 +1,214 @@
+body .image1 {
+  width: 87em;
+  position: fixed;
+  height: 90em;
+  margin: -18em 0em;
+  z-index: -1;
+  opacity: 0.7;
+}
+
+.header {
+  margin: 0 auto;
+  width: 100%;
+  background-color: #6FDB5E;
+  padding: 0.1em;
+  box-sizing: border-box;
+}
+.header .header__article .header__section .header__nav {
+  display: flex;
+  justify-content: center;
+  flex-direction: none;
+  align-items: none;
+  align-content: none;
+  gap: 7em;
+}
+.header .header__article .header__section .header__nav a img {
+  width: 2em;
+}
+.header .header__article .header__section .header__nav .titleIndex {
+  font-size: 2em;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+}
+
+.main {
+  display: flex;
+  justify-content: none;
+  flex-direction: column;
+  align-items: none;
+  align-content: none;
+  gap: 1em;
+}
+.main .main__articletitle .main__titlesection h2 {
+  font-size: 5em;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  color: rgb(255, 255, 255);
+  padding: 3em 1em;
+}
+.main .main__presentation {
+  display: flex;
+  justify-content: none;
+  flex-direction: column;
+  align-items: none;
+  align-content: none;
+  gap: 9em;
+  background-color: white;
+  padding: 4em;
+  border-radius: 4em 4em 0em 0em;
+}
+.main .main__presentation .main__presentsection {
+  display: flex;
+  justify-content: center;
+  flex-direction: none;
+  align-items: center;
+  align-content: center;
+  gap: 18em;
+}
+.main .main__presentation .main__presentsection img {
+  width: 21em;
+  border-radius: 1em;
+}
+.main .main__presentation .main__presentsection p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 3em;
+  color: rgb(68, 68, 68);
+}
+.main .main__presentation .main__presentbutton {
+  display: flex;
+  justify-content: none;
+  flex-direction: column;
+  align-items: center;
+  align-content: none;
+  gap: 4em;
+}
+.main .main__presentation .main__presentbutton p {
+  font-size: 5em;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(68, 68, 68);
+}
+.main .main__presentation .main__presentbutton a {
+  font-size: 3em;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  color: white;
+  background-color: #9E7650;
+  padding: 0.5em;
+  border-radius: 1em;
+  border-style: solid;
+  border-width: 0.1em;
+}
+.main .main__presentation .main__presentbutton a:hover {
+  background-color: white;
+  color: #9E7650;
+  border-color: #9E7650;
+  transition: 0.5s;
+}
+
+.main1 {
+  display: flex;
+  flex-direction: row;
+  gap: 7em;
+  margin: 0 auto;
+  width: 69%;
+  justify-content: space-between;
+  padding: 5em 1em;
+}
+.main1 .questionnaire {
+  background-color: #9E7650;
+  border-radius: 1em;
+  box-shadow: 0px 0px 20px 0px black;
+}
+.main1 .questionnaire .questionnaire__title {
+  padding: 1em 3em;
+  display: flex;
+  justify-content: center;
+  background-color: #6FDB5E;
+  border-radius: 1em 1em 0em 0em;
+}
+.main1 .questionnaire .questionnaire__title h2 {
+  font-size: 1.5em;
+  color: white;
+  font-family: "Montserrat";
+  font-weight: 800;
+}
+.main1 .questionnaire .questionnaire__sections {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+  padding: 1em 0em;
+}
+.main1 .questionnaire .questionnaire__sections .questionnaire__ask {
+  display: flex;
+  flex-direction: column;
+}
+.main1 .questionnaire .questionnaire__sections .questionnaire__ask p {
+  font-size: 1.5em;
+  font-family: "Montserrat";
+  color: #fff;
+}
+.main1 .questionnaire .questionnaire__sections .questionnaire__ask input {
+  border-style: none;
+  border-radius: 1em;
+  width: 17em;
+  height: 2em;
+}
+.main1 .questionnaire .questionnaire__sections .questionnaire__ask input:focus {
+  outline: none;
+}
+.main1 .questionnaire .questionnaire__sections .questionnaire__ask .error {
+  color: #ff000d;
+  font-size: 1em;
+  font-family: "Montserrat";
+}
+.main1 .questionnaire .questionnaire__button {
+  display: flex;
+  justify-content: center;
+}
+.main1 .questionnaire .questionnaire__button button {
+  font-size: 2em;
+  font-family: "Montserrat";
+  color: white;
+  border-radius: 0.5em;
+  border-style: none;
+  padding: 0.2em;
+  background-color: #6FDB5E;
+  border-style: solid;
+  border-color: #6FDB5E;
+}
+.main1 .questionnaire .questionnaire__button button:hover {
+  background-color: white;
+  color: #6FDB5E;
+  cursor: pointer;
+  transition: 0.5s;
+}
+.main1 .questionnaireimage section img {
+  width: 26em;
+}
+
+.filled {
+  position: fixed;
+  width: 23%;
+  background-color: white;
+  box-shadow: 0px 0px 20px 0px black;
+  padding: 6em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1em;
+  left: -46%;
+  transition: 1s;
+}
+.filled section h3 {
+  font-size: 4em;
+  color: #6FDB5E;
+  font-family: "Montserrat";
+  font-weight: 600;
+}
+
+.open {
+  left: 31%;
+  transition: 1s;
+}/*# sourceMappingURL=style.css.map */

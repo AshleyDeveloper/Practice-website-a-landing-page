@@ -1,0 +1,19 @@
+@mixin flex($justify, $direction, $alingItems, $alingContent, $gap){
+    display: flex;
+    justify-content: $justify;
+    flex-direction: $direction;
+    align-items: $alingItems;
+    align-content: $alingContent;
+    gap: $gap;
+};
+
+@mixin paddingAndBorderRadius($padding, $border){
+    padding: $padding;
+    border-radius: $border;
+}
+
+$colorPrime: #6FDB5E;
+$colorSecond: #9E7650;
+$colorText: #ffff;
+$colorTextSecond: rgb(68 68 68);
+$fontFamily:'Montserrat', sans-serif;
